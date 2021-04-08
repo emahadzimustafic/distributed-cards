@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+  background-color: #f5f2f0;
+  line-height: 1.5
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  margin: 1.5rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+body main h1, h2 {
+  font-family: 'Denk One';
+  font-style: normal;
+  color: #623b0c;
+}
+
+main ol li {
+  list-style-type: none;
+}
+
+main a {
+  color: #fff;
+  background-color: #623b0c;
+  text-decoration: none;
+  padding: .5em 1em;
+  border-radius: .3em;
+}
