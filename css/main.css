@@ -24,9 +24,11 @@ main ol {
   flex-wrap: wrap;
   justify-content: center;
   padding: 1rem;
+}
 
-  gap: 1rem;
+body main ol {
   display: grid;
+  gap: 1rem;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
   "col1 col2";
@@ -36,10 +38,6 @@ main h1, h2 {
   font-family: "Denk One";
   font-style: normal;
   color: #623b0c;
-}
-
-main h2 {
-  margin: 0 0 1.5rem;
 }
 
 main ol li {
@@ -57,10 +55,19 @@ main a {
   color: #ede3db;
   background-color: #623b0c;
   text-decoration: none;
-  padding: .5em 1em;
+  padding: .6em;
   border-radius: 8px;
 }
 
 main h1 {
   margin: 1rem;
+}
+
+main h2 {
+  margin: 0 0 1.5rem;
+}
+
+main li {
+  display: flex;
+  justify-content: space-between;
 }
